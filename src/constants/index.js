@@ -8,13 +8,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
+    java,
     meta,
     starbucks,
     tesla,
@@ -23,6 +22,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    linkedin,
+    github,
+    email
   } from "../assets";
   
   export const navLinks = [
@@ -38,6 +40,19 @@ import {
       id: "contact",
       title: "Contact",
     },
+  ];
+
+ export const socialLinks = [
+    {
+      id: 1,
+      icon: linkedin,
+      url: "https://www.linkedin.com/in/swizeldemelo/",
+    },
+    {
+      id: 2,
+      icon: github,
+      url: "https://github.com/swiz07",
+    }
   ];
   
   const services = [
@@ -81,10 +96,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -109,8 +120,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
     },
   ];
   
