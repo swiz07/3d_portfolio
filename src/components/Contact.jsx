@@ -29,8 +29,6 @@ const Contact = () => {
       </div>
 
     {/*Contact Cards*/}
-    {/*add icons later*/}
-
     <div className="container mx-auto">
       <div className="pt-8 pb-8">
         {/* social links */}
