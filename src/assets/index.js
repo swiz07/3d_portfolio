@@ -21,9 +21,9 @@ import threejs from "./tech/threejs.png";
 
 import brightnetwork from "./company/brightnetwork.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import weather from "./weather.png";
+import analyser from "./resume_analyser.png";
+import foodwebsite from "./food_website.png";
 
 import github from "./github.png";
 import linkedin from "./linkedin.png";
@@ -53,7 +53,7 @@ export {
   typescript,
   threejs,
   brightnetwork,
-  carrent,
-  jobit,
-  tripguide,
+  weather,
+  analyser,
+  foodwebsite,
 };

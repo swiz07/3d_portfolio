@@ -19,7 +19,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
       >
         {/*Project image*/}
         <div className='relative w-full h-[230px]'>
-          <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
+          <img src={image} alt={name} className='w-full h-full object-contain rounded-2xl' />
         </div>
 
       {/*Github repository*/}
