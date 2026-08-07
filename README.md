@@ -1,77 +1,50 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 3D Portfolio Website 🚀
+<img width="1319" height="530" alt="Image" src="https://github.com/user-attachments/assets/7214768c-bb17-40e1-bd59-eaec92bfe1dd" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive 3D portfolio website built to showcase my skills, projects, experience, and background as a developer. The goal of this project is to create an engaging user experience by combining a responsive UI with immersive 3D elements.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Interactive 3D computer model using Three.js
+- Smooth animations and transitions
+- Responsive design for desktop and mobile devices
+- About section to introduce myself
+- Experience timeline
+- Technology showcase
+- Project/work gallery
+- Contact form integration
+- Modern UI with animations
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- Three.js
+- React Three Fiber
+- React Three Drei
+- Framer Motion
+- Tailwind CSS
+- EmailJS
 
-## Expanding the ESLint configuration
+## 🚀 Installation and Setup
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Clone the repository:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+```bash
+git clone https://github.com/swiz07/3d_portfolio.git
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Navigate into the project:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+cd 3d_portfolio
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# 3d-Portfolio
->>>>>>> 8a56b09a7c488f87020c92b16e0adc511072a4db
+Run the development server:
+
+npm run dev
+
+Live Demo:
+https://swiz07.github.io/3d_portfolio/
+
