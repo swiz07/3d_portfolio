@@ -7,7 +7,6 @@ A modern and interactive 3D portfolio website built to showcase my skills, proje
 
 - Interactive 3D computer model using Three.js
 - Smooth animations and transitions
-- Responsive design for desktop and mobile devices
 - About section to introduce myself
 - Experience timeline
 - Technology showcase
@@ -38,7 +37,7 @@ cd 3d_portfolio
 
 Install dependencies:
 
-npm install
+npm install --legacy-peer-deps
 
 Run the development server:
 
