@@ -1,9 +1,9 @@
 # 3D Portfolio Website 🚀
-<img width="1319" height="530" alt="Image" src="https://github.com/user-attachments/assets/7214768c-bb17-40e1-bd59-eaec92bfe1dd" />
+<img width="1319" height="530" alt="Portfolio image" src="https://github.com/user-attachments/assets/7214768c-bb17-40e1-bd59-eaec92bfe1dd" />
 
 A modern and interactive 3D portfolio website built to showcase my skills, projects, experience, and background as a developer. The goal of this project is to create an engaging user experience by combining a responsive UI with immersive 3D elements.
 
-## ✨ Features
+## Features
 
 - Interactive 3D computer model using Three.js
 - Smooth animations and transitions
@@ -15,7 +15,7 @@ A modern and interactive 3D portfolio website built to showcase my skills, proje
 - Contact form integration
 - Modern UI with animations
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - React.js
 - Vite
@@ -24,9 +24,8 @@ A modern and interactive 3D portfolio website built to showcase my skills, proje
 - React Three Drei
 - Framer Motion
 - Tailwind CSS
-- EmailJS
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 Clone the repository:
 
