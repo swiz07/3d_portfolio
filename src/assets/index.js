@@ -23,7 +23,7 @@ import brightnetwork from "./company/brightnetwork.png";
 
 import weather from "./weather.png";
 import analyser from "./resume_analyser.png";
-import foodwebsite from "./food_website.png";
+import cartora from "./cartora.png";
 
 import github from "./github.png";
 import linkedin from "./linkedin.png";
@@ -55,5 +55,5 @@ export {
   brightnetwork,
   weather,
   analyser,
-  foodwebsite,
+  cartora,
 };

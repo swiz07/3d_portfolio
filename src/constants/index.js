@@ -17,7 +17,7 @@ import {
   brightnetwork,
   weather,
   analyser,
-  foodwebsite,
+  cartora,
   threejs,
   linkedin,
   github,
@@ -139,6 +139,31 @@ const experiences = [
 
 const projects = [
   {
+    name: "Cartora - Full-Stack E-Commerce",
+    description:
+      "A full-stack e-commerce application built with React, Django REST Framework, and PostgreSQL, featuring product browsing, shopping cart, checkout, order functionality, and JWT authentication.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: cartora,
+    source_code_link: "https://github.com/swiz07/fullstack-ecommerce",
+  },
+  {
     name: "Resume Analyser",
     description:"This is a web application that analyses PDF resumes using OpenAI, extracts key skills, generates summaries, and provides improvement suggestions.",
     tags: [
@@ -178,23 +203,6 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/swiz07/Weather-app",
-  },
-  {
-    name: "Food website",
-    description:
-      "This website was built using html and css. The website has smooth navigation, responsive Flexbox layouts, custom typography, and scroll-triggered image animations.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: foodwebsite,
-    source_code_link: "https://github.com/swiz07/food-website",
   },
 ];
 
